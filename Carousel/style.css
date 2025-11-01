@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+#parent{
+    height: 40%;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    flex-wrap: nowrap;
+    /* overflow: hidden; */
+    overflow: auto; 
+}
+#parent::-webkit-scrollbar{
+    /* display: none; */
+    /* background-color: rgb(129, 123, 123); */
+}
+.child{
+    height: 90%;
+    width: 30%;
+    background-color: coral;
+    border-radius: 20px;
+    flex-shrink: 0;
+
+}
+.child img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
