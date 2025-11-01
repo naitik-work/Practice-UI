@@ -18,9 +18,8 @@ html , body{
     /* overflow: hidden; */
     overflow: auto; 
 }
-#parent::-webkit-scrollbar{
-    /* display: none; */
-    /* background-color: rgb(129, 123, 123); */
+#parent::-webkit-scrollbar {
+  background-color: tomato;
 }
 .child{
     height: 90%;
