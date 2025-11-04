@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(108, 98, 98);
+}
+h1{
+    font-size: 200px;
+    background-image: url(https://plus.unsplash.com/premium_photo-1668037381937-f7df1b888573?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEwfGlVSXNuVnRqQjBZfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&q=60&w=600);
+    background-size: cover;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+
+}
+h3{
+    font-size: 200px;
+    text-align: center;
+    background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnBzYTd5YmtnenIwbjhyaGE3d2wwZDVkcG1pZ3F6NHYyaGxnYnU1cyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/lHAZSr1czyJzXJFgVo/giphy.webp);
+    background-clip: text;
+    color: transparent;
+}
+h2{
+    font-size: 150px;
+    color: crimson;
+    text-align: center;
+    -webkit-text-stroke: 3px yellow;
+    border: 2px solid rgb(245, 245, 245);
+
+}
