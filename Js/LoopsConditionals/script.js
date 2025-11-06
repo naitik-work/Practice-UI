@@ -11,16 +11,16 @@
 // for(let i =1; i<9; i++){
 //     console.log(i);
 // }
-for(let i=1; i<=25;i++){
-    if(i%2===0){
-        console.log(i);
-    }
-    else
-        continue;
-}
-for(let i=5; i<10;i++){
-    console.log("hello NAITIK!");
-}
+// for(let i=1; i<=25;i++){
+//     if(i%2===0){
+//         console.log(i);
+//     }
+//     else
+//         continue;
+// }
+// for(let i=5; i<10;i++){
+//     console.log("hello NAITIK!");
+// }
 //jab bhi hum prompt se koi bhi user input lete hai wo humesha string ke form me hota hai. The ways to convert sttring to number are:
 //1 Using Number() function
 //2 Using unary + operator
