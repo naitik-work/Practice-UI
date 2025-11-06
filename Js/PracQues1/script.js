@@ -47,17 +47,33 @@
 
 //Another way:
 
-let attempts=0;
-let pass= 'NAITIK';
-let userPass=prompt("Enter your password:");
-attempts++;
-while(userPass!==pass && attempts<3){
-    userPass= prompt("Enter your password:");
-    attempts++;
-}
-if(userPass!==pass&& attempts===3){
-    console.error("Account locked!");
-}
-else console.log("Login successful!");
+// let attempts=0;
+// let pass= 'NAITIK';
+// let userPass=prompt("Enter your password:");
+// attempts++;
+// while(userPass!==pass && attempts<3){
+//     userPass= prompt("Enter your password:");
+//     attempts++;
+// }
+// if(userPass!==pass&& attempts===3){
+//     console.error("Account locked!");
+// }
+// else console.log("Login successful!");
 
+//ques3:
+// let count=0;
+// for(let i=0; i<5; i++){
+//     let num= +prompt("Ente a number:");
+//     if(num>0) count++;
+// }
+// console.log(`You entered ${count} positive numbers.`);
+let balance= 1000;
+for(let i=0; i<3;i++){
+    let withdrawalAmount= +prompt("Enter withdrawal amount:");
+    if(withdrawalAmount<balance){
+        balance-=withdrawalAmount;
+    }
+    else console.log("Insufficient funds!");
+}
+console.log(`Remaining balance: ${balance}`);
 
