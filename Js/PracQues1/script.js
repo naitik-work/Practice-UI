@@ -74,6 +74,6 @@ for(let i=0; i<3;i++){
         balance-=withdrawalAmount;
     }
     else console.log("Insufficient funds!");
-}
+ }
 console.log(`Remaining balance: ${balance}`);
 
