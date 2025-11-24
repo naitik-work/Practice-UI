@@ -8,7 +8,7 @@ const user = [
     profilePhoto: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=500&q=80"
   },
   {
-    name: "Simran Kaur",
+    name: "Unnati Mishra",
     age: 23,
     designation: "Backend Developer",
     description: "Loves building robust APIs and working with Node.js and MongoDB to create scalable systems.",
@@ -65,3 +65,4 @@ user.forEach(function(elem){
 })
 
 main.innerHTML= sum;
+
