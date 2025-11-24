@@ -9,28 +9,23 @@ html , body{
 }
 body{
     background-color: black;
+}
+#main{
+    height: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
 }
-
-img{
-    height: 400px;
-    width: 300px;
-    object-fit: cover;
-    cursor: pointer;
-}
-
 h1{
-    font-size: 2rem;
-    color: rgb(234, 203, 8);
+    text-align: center;
+    font-size: 3rem;
+    background-color: antiquewhite;
+    color: aqua;
+    border-radius: 20px;
 }
 
-h3{
-    font-size: 1.5rem;
-    color: blue;
-}
+
 
 
 
