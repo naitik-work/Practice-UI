@@ -44,4 +44,104 @@ let biscuit2= new BiscuitMaker('GoodDay',50);
 let biscuit3= new BiscuitMaker('2020',100);
 
 
+//this keyword
 
+//global->window
+
+//function->window
+
+//es5 function inside object ki value aati hai ->object!
+// let obj = {
+//     name: 'Naitik',
+//     func: function(){
+//         console.log(this.name)
+//     }
+// }
+// obj.func();
+
+//es6 function inside object ki value aati hai ->object!
+// let obj = {
+//     name: 'Naitik',
+//     func: ()=>{
+//         console.log(this);
+//     }
+// }
+// obj.func();
+
+//es5 function inside es5 function inside object ki value aati hai ->window
+
+// let obj = {
+//     func: function(){
+//         console.log(this);
+
+//         function abc(){
+//             console.log(this)
+//         }
+//         abc();
+// }
+// };
+// obj.func();
+
+//es6 function inside es5 function inside object ki value aati hai ->object
+
+// let obj = {
+//     func: function(){
+//         console.log(this);
+
+//         const hello =()=>{
+//             console.log(this)
+//         }
+//         hello();
+// }
+// };
+// obj.func();
+
+
+//this apni value  humesha apne parents se leta hai!!! In short(Basic)
+
+
+//call apply aur bind
+
+
+// let obj = {
+//     name: 'Naitik',
+
+// }
+
+// function abcd() {
+//     console.log(this);
+// }
+
+// abcd.call(obj);
+
+//bind
+
+// let obj = {
+//     name: 'Naitik',
+
+// }
+
+// function abcd(a,b,c) {
+//     console.log(this);
+//     console.log(a);
+//     console.log(b);
+//     console.log(c);
+// }
+
+// abcd.call(obj,1,3,4);
+
+//apply
+
+let obj = {
+    name: 'Naitik',
+
+}
+
+function abcd(a,b,c) {
+    console.log(this);
+    console.log(a);
+    console.log(b);
+    console.log(c);
+}
+
+abcd.call(obj,[1,3,4]);
