@@ -114,8 +114,6 @@ let biscuit3= new BiscuitMaker('2020',100);
 
 // abcd.call(obj);
 
-//bind
-
 // let obj = {
 //     name: 'Naitik',
 
@@ -132,16 +130,29 @@ let biscuit3= new BiscuitMaker('2020',100);
 
 //apply
 
+// let obj = {
+//     name: 'Naitik',
+
+// }
+
+// function abcd(a,b,c) {
+//     console.log(this,a,b,c);
+
+// }
+
+// abcd.apply(obj,[1,3,4]);
+
+//bind
+
 let obj = {
     name: 'Naitik',
 
 }
 
 function abcd(a,b,c) {
-    console.log(this);
-    console.log(a);
-    console.log(b);
-    console.log(c);
+    console.log(this,a,b,c);
+
 }
 
-abcd.call(obj,[1,3,4]);
+let xyz= abcd.bind(obj,[1,3,4]);
+xyz();
