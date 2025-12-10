@@ -136,7 +136,7 @@ const reels = [
     }
 ];
 
-sum='';
+var sum='';
 
 reels.forEach(function(elem){
     sum+= `<div class="reel">
@@ -151,7 +151,7 @@ reels.forEach(function(elem){
                     </div>
                     <div class="right">
                         <div class="like">
-                            <h4 class="like-icon icon">${elem.isLiked?'<i class="love ri-heart-3-fill">':'<i class="ri-heart-3-line">'}</i></h4>
+                            <h4 class="like-icon icon">${elem.isLiked?'<i class="loveri-heart-3-fill">':'<i class="ri-heart-3-line">'}</i></h4>
                             <h6>${elem.likeCount}</h6>
                         </div>
                         <div class="comment">

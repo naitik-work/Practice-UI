@@ -1,0 +1,17 @@
+//promises-> ek kam jake kro
+//pending state
+//hojayega->resolved
+//nahi hoga-> reject
+
+const prm= new Promise((resolve,reject)=>{
+    setTimeout(()=>{
+        resolve();
+    },3000);
+});
+
+prm.then(function(){
+    console.log('heyheyhey')
+});
+prm.catch(function(){
+    console.log('hiehiheih')
+});
